@@ -1,0 +1,9 @@
+package com.rr_eventtec.api.repository;
+
+import com.rr_eventtec.api.domain.address.Address;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.UUID;
+
+public interface AddressRepository extends JpaRepository<Address, UUID> {
+}
